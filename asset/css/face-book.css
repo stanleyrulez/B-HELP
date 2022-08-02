@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.daniel{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-basis: 50%;
+}
+*:link{
+    text-decoration: none;
+}
+.logo{
+    width: 300px;
+    margin-top: 47px;
+    margin-left: -30px;
+    flex-basis: 60%;
+}
+p.text{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+}
+body{
+    background-color: rgb(227, 227, 240);
+    font-family: sans-serif;
+}
+.head{
+    text-justify:50%;
+}
+.hero{
+    background-color: white;
+    width: 390px;
+    height: 48vh;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+.phone{
+    padding: 11px;
+    margin: 10px 33px;
+    width: 85%;
+    border-radius: 6px;
+}
+.word{
+    padding: 11px;
+    margin: 10px 33px;
+    width: 85%;
+    border-radius: 6px;
+}
+.log{
+    display: inline-block;
+    margin-bottom: 14px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    padding: 11px;
+    border: none;
+    margin: 10px 33px;
+    width: 85%;
+    border-radius: 6px;
+}
+.for{
+    margin-bottom: 14px;
+}
+.acc{
+    display: inline-block;
+    margin-bottom: 14px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 5px;
+    margin: 10px 33px;
+    width: 52%;
+    border-radius: 6px;
+}
+hr{
+    margin-bottom: 14px;
+}
+p.hero-text{
+    margin-left: 80px;
+}
+.phone:hover{
+    border-color: blue;
+}
+input{
+    width: 100%;
+    border: 1px solid  rgba(0, 0, 0, 0.2);
+    outline-style: none;
+}
